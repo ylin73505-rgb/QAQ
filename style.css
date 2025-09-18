@@ -67,6 +67,26 @@ header ul{
     line-height: 2em;
 }
 
+.video{
+    background-color:#f5f5dc;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video div{ 
+    font-size: 48px;  
+    position: relative;
+    top: 100px;
+}
+
+.video h2{
+    font-size: 48px;  
+    position: relative;
+    top: 50px;
+}
+
 footer{
     background-color: black;
     color: #b7b7b7;
@@ -117,17 +137,36 @@ footer a{
 }
 
 .g{
-    background-color:#f7bdd8;
+    background-color:#c5d7f4;
     height: 500px;
-    justify-content: center;
+    display: flex;
+    justify-content: left;
     align-items: center;
+    flex-direction: column;
+
+}
+
+.g img{
+    width: 42%;
+    position: relative;
+    left: -350px;
+    top: -350px;
 }
 
 .g h2{
     font-size: 48px;
    position: absolute;
-   right: 350px;
+   right: 340px;
    top: 1500px;
+}
+
+.g b{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    right: -350px;
+    top: 200px;
 }
 
 .h{

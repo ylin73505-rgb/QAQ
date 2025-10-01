@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../JAVA"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "動態網頁設計"
+	}
+}

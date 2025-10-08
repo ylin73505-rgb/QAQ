@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+.img{ 
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 header{
     background-color: black;
     height: 80px;
@@ -37,29 +44,32 @@ header ul{
     top:3vw;
 }
 
-section:not(.shop){
+section:not(.shop):not(.video){
+    width: 99vw;      /* 讓 section 寬度等於整個視窗寬度 */
+    height: 500px;     /* 你可以依需求調整高度 */
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.shop{
+.shop {
     display: flex;
     background-color: #f5f5dc;
+    width: 99vw;
 }
 
-.shop img{
-    width: 50%;
+.shop img {
+    width: 49.5%;
+    height: auto;
+    display: block;
 }
 
-.info{
-    width: 40%;
+.info {
+    width: 49.5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 70px;
-    top: 350px;
+    align-items: center;
 }
 
 .info h3{
@@ -68,6 +78,7 @@ section:not(.shop){
 }
 
 .info y{
+    font-size: 16px;
     text-align: center;
     line-height: 2em;
 } 
@@ -77,6 +88,8 @@ section:not(.shop){
     height: 800px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .video div{ 
@@ -115,7 +128,7 @@ footer a{
     flex-direction: column;
 }
 
-.banan{
+.banana{
     position:relative;
     left:400px;
     top:520px;
@@ -128,7 +141,7 @@ footer a{
     top: -10px;
 }
 
-.oreage{
+.orange{
     position: relative;
     left: -550px;
     top: -650px;
@@ -163,29 +176,29 @@ footer a{
 .zoo2{
     position: relative;
     left: -400px;
-    top: 350px;
+    top: 320px;
 }
 
 .zoo{
     opacity: 0.6;
     position: relative;
     left: 540px;
-    top: -240px;
+    top: -280px;
     z-index: 1;
 }
 
 .zoo3{
     position: relative;
     left: 530px;
-    top: -650px;
+    top: -690px;
     z-index: 1;
 }
 
 .g h2{
    font-size: 48px;
-   position: absolute;
-   right: 500px;
-   top: 1500px;
+   position: relative;
+   right: -190px;
+   top: 840px;
    z-index: 2;
 }
 
@@ -195,7 +208,7 @@ footer a{
     text-align: center;
     line-height: 2em;
     right: -190px;
-    top: 880px;
+    top: 840px;
     z-index: 2;
 }
 
@@ -297,7 +310,6 @@ footer a{
 
 .l{
     background-color :#d5b9f3;
-    color:white;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -312,13 +324,13 @@ footer a{
 .zoo17{
     opacity: 0.7;
     position: relative;
-    right: -345px;
+    right: -455px;
     top: -80px;
 }
 
 .zoo18{
     position: relative;
-    right: -335px;
+    right: -445px;
     top: -680px;
 }
 
@@ -402,13 +414,13 @@ footer a{
 .zoo11{
     opacity: 0.4;
     position: relative;
-    left: 345px;
+    left: 445px;
     top: 315px;
 }
 
 .zoo12{
     position: relative;
-    left: 355px;
+    left: 455px;
     top: -675px;
 }
 
